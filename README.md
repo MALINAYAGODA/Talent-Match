@@ -19,6 +19,6 @@ We tried several methods and models🌎, but stopped at the [article](https://ar
 3) Training a __Siamese__ neural network with 2 branches and the last layer of the classifier
 **Сonclusion**: a good model, a core that gave Precision=0.33, Recall=0.8, Validation loss=0.68;
 
-We created a base NN for further upgrades and in the end we took the 2nd 🥈place;__ 
+We created a base NN for further upgrades and in the end we took the 2nd 🥈place; <br />
 (One job description and the top 2 suitable resumes that the model issued🔎)
 ![image](https://github.com/MALINAYAGODA/Talent-Match/blob/main/picture/photo_waifu2x_photo_noise1_scale.png)
