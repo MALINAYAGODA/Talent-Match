@@ -7,8 +7,8 @@ Nowadays, the number of vacancies is growing exponentially. To do this, companie
 
 ## 💾 Data
 We have received 2 datasets with marked up and unmarked data. "__case_2_data_for_members.json__" contained structured data in the form of a dictionary, where there were 5-30 suitable and unsuitable resumes for each vacancy. 
-__Resume columns__: uuid, first_name, last_name, birth_date, country, city, about, key_skills, experienceItem, educationItem;
-__Vacancy columns__: uuid, name, keywords, description, comment;
+- __Resume columns__: uuid, first_name, last_name, birth_date, country, city, about, key_skills, experienceItem, educationItem;
+- __Vacancy columns__: uuid, name, keywords, description, comment;
 
 
 ## Technologies 
