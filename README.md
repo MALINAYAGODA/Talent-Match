@@ -12,12 +12,14 @@ We have received 2 datasets with marked up and unmarked data. "__case_2_data_for
 
 
 ## Technologies 
+> __Uniqueness:__ before the hackathon, we collected a huge dataset of resumes and vacancies for tripletloss training, and it was used to isolate the main words from vacancies (filling in gaps) of the key_words function
 
 We tried several methods and models🌎, but stopped at the [article](https://arxiv.org/abs/1908.10084), the Siamese model👽. How our solution works:
 1) Preprocessing, lemmatization, tokenization
 2) Sending data via __distil-roBerta__ to receive embeddings
 3) Training a __Siamese__ neural network with 2 branches and the last layer of the classifier
 **Сonclusion**: a good model, a core that gave Precision=0.33, Recall=0.8, Validation loss=0.68;
+
 
 We created a base NN for further upgrades and in the end we took the 2nd 🥈place; <br />
 (One job description and the top 2 suitable resumes that the model issued🔎)
