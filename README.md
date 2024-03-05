@@ -13,7 +13,11 @@ Vacancy columns: __uuid__, name, keywords, description, comment;
 
 ## Technologies 
 
-We trained and tried several detection models, but YOLOv8m turned out to be the best. We also used SAHI technology👽 for inference.
+We tried several methods and models, but stopped at the [article](https://arxiv.org/abs/1908.10084), the Siamese model. How our solution works:
+1) Preprocessing, lemmatization, tokenization
+2) Sending data via __distil-roBerta__ to receive embeddings
+3) Training a __Siamese__ neural network with 2 branches and the last layer of the classifier
+**Сonclusion**: a good model, a core that gave Precision=0.33, Recall=0.8, Validation loss=0.68;
 
-🎯 The best scores **(~0.78 mAP50)** after the private session. As a result, after the performance, we took the 3rd place🥉;
-![image](https://github.com/timur612/insulator_defect_detection/assets/86769332/a19e8d5d-2b9b-4449-93c5-ae30b6a82d7a)
+We created a base NN for further upgrades and in the end we took the 2nd place;
+![image](https://github.com/MALINAYAGODA/Talent-Match/blob/main/picture/photo_waifu2x_photo_noise1_scale.png)
