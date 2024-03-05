@@ -1,16 +1,14 @@
 # Talent-Match - команда skibidi_MISIS
----
 ## ⌛ Task
-There are a lot of power lines in our country, which is why their maintenance takes a long time. For example, due to the lack of plate-type insulators, it leads to a voltage degradation. Therefore, Innopolis University decided to organize a hackathon to solve this problem: [Disc-type glass insulators absence detection](https://www.kaggle.com/competitions/innopolis-high-voltage-challenge) 
+Nowadays, the number of vacancies is growing exponentially. To do this, companies hire HR managers to recruit people, specialists. But it is difficult and slow to sort through thousands of resumes. To solve this problem, we have proposed our own algorithm for matching resumes with vacancies in the [Talent Match hackathon](https://ml-talentmatch.ru/);
 
-💰 The first place prize was 350.000 rubles. Second and third got 250.000 and 100.000 rubles.
+💰 The first place prize was 75.000 rubles. Second and third got 50.000 and 25.000 rubles.
 
 
 ## 💾 Data
-We were given several links to roboflow, thanks to which we marked up and collected a database of images in the size of > 1800 pieces. We also had 17 pictures for the test.
-
-![DJI_0038 (1)](https://github.com/timur612/insulator_defect_detection/assets/86769332/70daa4f6-10da-4d74-a1c3-28e73a5e801a)
-![DJI_0037_JPG rf 14ae7dcc09b16f1ee225a540d27e260f jpg (2)](https://github.com/timur612/insulator_defect_detection/assets/86769332/0dc211ad-1be1-4b34-bba9-7cb9ba1d6133)
+We have received 2 datasets with marked up and unmarked data. "__case_2_data_for_members.json__" contained structured data in the form of a dictionary, where there were 5-30 suitable and unsuitable resumes for each vacancy. 
+Resume columns: __uuid__, first_name, last_name, birth_date, country, city, about, key_skills, experienceItem, educationItem;
+Vacancy columns: __uuid__, name, keywords, description, comment;
 
 
 ## Technologies 
