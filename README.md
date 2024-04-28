@@ -3,7 +3,7 @@
 Nowadays, the number of vacancies is growing exponentially. To do this, companies hire HR managers to recruit people, specialists. But it is difficult and slow to sort through thousands of resumes. To solve this problem, we have proposed our own algorithm for matching resumes with vacancies in the [Talent Match hackathon](https://ml-talentmatch.ru/);
 
 💰 The first place prize was 75.000 rubles. Second and third got 50.000 and 25.000 rubles.
-
+  
 
 ## - Data
 We have received 2 datasets with marked up and unmarked data. "__case_2_data_for_members.json__" contained structured data in the form of a dictionary, where there were 5-30 suitable and unsuitable resumes for each vacancy. 
